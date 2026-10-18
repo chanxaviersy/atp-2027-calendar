@@ -75,4 +75,3 @@ Found an error or an update? The tournament data is in [`_data/tournaments.yml`]
 ---
 
 <sub>Last updated: {{ site.time | date: "%B %d, %Y" }}</sub>
-<!-- rebuild Sun Oct 18 18:11:37 HKT 2026 -->
