@@ -4,6 +4,7 @@ A clean, fast, structured reference for the **2027 ATP Tour season** — coverin
 
 > Source: [ATP 2027 Calendar (14 January 2026 update)](https://www.atptour.com/)
 > Hosted on [GitHub Pages](https://pages.github.com/)
+> 🌐 **Live site**: https://chanxaviersy.github.io/atp-2027-calendar/
 
 ## ✨ Features
 
@@ -12,78 +13,72 @@ A clean, fast, structured reference for the **2027 ATP Tour season** — coverin
 - 🏷️ **Browse by category** — Grand Slams, Masters 1000, ATP 500, ATP 250, Finals, Davis Cup
 - 📈 **Live ATP Rankings** — Direct links to authoritative sources (no scraping)
 - 📱 **Mobile-friendly** — Responsive design, no JS required
-- ⚡ **Static site** — Pure Jekyll, no server-side processing
+- ⚡ **Static site** — Pure HTML/CSS, no build server needed
 - 🌍 **i18n-friendly** — Country flags + English tournament names
 
 ## 🛠️ Tech Stack
 
 | Layer | Tech |
 |-------|------|
-| Generator | [Jekyll 4.3](https://jekyllrb.com/) |
-| Theme | [Minima](https://github.com/jekyll/minima) (customized) |
-| Data | YAML |
+| Generator | Python (no Jekyll, no Node) |
+| Output | Pure static HTML/CSS |
+| Data | YAML (66 events) |
 | Hosting | GitHub Pages |
-| CI/CD | GitHub Actions (auto-deploy on push) |
+| CI/CD | None needed (push to update) |
 
 ## 📂 Project Structure
 
 ```
 atp-2027-calendar/
-├── _config.yml                 # Jekyll config
 ├── _data/
 │   ├── tournaments.yml         # All 66 events
 │   ├── notes.yml               # Footnote legend
 │   └── README.md               # Data schema
-├── _layouts/
-│   └── base.html               # Custom base layout
-├── _sass/                      # Custom styles
-│   └── _custom.scss
-├── assets/css/
-│   └── style.scss              # Main stylesheet
-├── tournaments/                # 66 auto-generated detail pages
-│   ├── australian-open.md
-│   ├── roland-garros.md
-│   └── ...
-├── index.md                    # Homepage
-├── calendar.md                 # Calendar by month
-├── tournaments.md              # All tournaments (by category)
-├── category.md                 # By category overview
-├── rankings.md                 # Live rankings links
-├── about.md                    # About
-├── 404.html                    # 404 page
-├── Gemfile                     # Ruby dependencies
+├── _scripts/
+│   ├── build.py                # Static site generator
+│   └── iso_codes.py            # ISO 3166 mapping
+├── docs/                       # GitHub Pages serves from here
+│   ├── index.html              # Homepage
+│   ├── calendar/index.html
+│   ├── tournaments/index.html
+│   ├── category/index.html
+│   ├── rankings/index.html
+│   ├── about/index.html
+│   ├── 404.html
+│   ├── assets/css/style.css
+│   ├── robots.txt
+│   ├── sitemap-data.json
+│   └── tournaments/            # 66 per-event pages
+│       ├── australian-open/index.html
+│       ├── roland-garros/index.html
+│       └── ...
+├── .github/                    # (workflows - gitignored due to token scope)
+├── _config.yml                 # (legacy Jekyll config)
+├── Gemfile                     # (legacy)
 └── README.md                   # This file
 ```
 
 ## 🚀 Local Development
 
-### Prerequisites
-- Ruby 3.0+
-- Bundler
+No build tools required. The `docs/` folder is fully static — just open `docs/index.html` in a browser.
 
-### Setup
+To regenerate after data changes:
+
 ```bash
-git clone https://github.com/YOUR-USERNAME/atp-2027-calendar.git
-cd atp-2027-calendar
-bundle install
-bundle exec jekyll serve --livereload
+python3 _scripts/build.py
 ```
 
-Visit `http://localhost:4000` to preview.
+That regenerates the entire `docs/` folder from `_data/tournaments.yml`.
 
 ## 📝 Update Procedure
 
 When the ATP releases a new calendar update (typically 2-3 times/year):
 
-1. Edit `_data/tournaments.yml`
-2. Add new entries, modify changed ones
-3. Re-generate detail pages (optional — but recommended for new events):
+1. Edit `_data/tournaments.yml` (add/modify entries)
+2. Run `python3 _scripts/build.py`
+3. Commit and push the `docs/` folder
 
-```python
-python3 _scripts/gen_tournament_pages.py
-```
-
-4. Commit and push. GitHub Pages will auto-rebuild in ~1 minute.
+GitHub Pages auto-deploys in ~1 minute.
 
 ## 🗂️ Data Schema
 
@@ -97,16 +92,24 @@ Each tournament in `tournaments.yml`:
   tournament: "United Cup"             # Official name
   surface: "Hard"                      # Hard, Clay, Grass, Indoor Hard, Various
   category: "United Cup"               # Grand Slam, ATP Masters 1000, ATP 500, ATP 250, ATP Finals, Davis Cup, Laver Cup, United Cup
-  draws: 18                            # Draw size (or teams for United Cup / TBD)
+  draws: 18                            # Draw size (or teams for United Cup)
   notes: ["6"]                         # Footnote codes
   country: "AUS"                       # ISO 3166-1 alpha-3
   url: "https://..."                   # Official website
 ```
 
+## 🔗 Important Pages
+
+- 🏠 [Home](https://chanxaviersy.github.io/atp-2027-calendar/)
+- 📅 [Calendar (by month)](https://chanxaviersy.github.io/atp-2027-calendar/calendar/)
+- 🏟️ [All 66 Tournaments](https://chanxaviersy.github.io/atp-2027-calendar/tournaments/)
+- 🏷️ [By Category](https://chanxaviersy.github.io/atp-2027-calendar/category/)
+- 📈 [Live Rankings](https://chanxaviersy.github.io/atp-2027-calendar/rankings/)
+- ℹ️ [About](https://chanxaviersy.github.io/atp-2027-calendar/about/)
+
 ## 🤝 Contributing
 
 PRs welcome! Common contributions:
-
 - 🐛 Fix typos or broken links
 - 📅 Update dates (after new ATP calendar release)
 - 🏟️ Add new tournaments
@@ -122,7 +125,6 @@ PRs welcome! Common contributions:
 ## 🎾 Related Projects
 
 - [nlp-ml-knowledge-base](https://github.com/chanxaviersy/nlp-ml-knowledge-base) — A comprehensive NLP/ML knowledge base
-- [Ultimate Tennis Statistics](https://www.ultimatetennistatistics.com/) — Community-maintained stats
 
 ## 📄 License
 
@@ -131,3 +133,4 @@ MIT (code) / Fair use (data)
 ---
 
 <sub>🎾 Built with ❤️ by tennis fans. Not affiliated with the ATP Tour.</sub>
+
