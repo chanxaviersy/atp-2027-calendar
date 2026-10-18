@@ -1,0 +1,332 @@
+[
+  {
+    "url": "tournaments/united-cup.html",
+    "title": "United Cup",
+    "category": "United Cup"
+  },
+  {
+    "url": "tournaments/brisbane-international-presented-by-anz.html",
+    "title": "Brisbane International presented by ANZ",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/asb-classic.html",
+    "title": "ASB Classic",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/bank-of-china-hong-kong-tennis-open.html",
+    "title": "Bank of China Hong Kong Tennis Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/adelaide-international.html",
+    "title": "Adelaide International",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/australian-open.html",
+    "title": "Australian Open",
+    "category": "Grand Slam"
+  },
+  {
+    "url": "tournaments/open-occitanie.html",
+    "title": "Open Occitanie",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/davis-cup-qualifiers-1st-round.html",
+    "title": "Davis Cup Qualifiers 1st Round",
+    "category": "Davis Cup"
+  },
+  {
+    "url": "tournaments/nexo-dallas-open.html",
+    "title": "NEXO Dallas Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/abn-amro-open.html",
+    "title": "ABN AMRO Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/rio-open-presented-by-claro.html",
+    "title": "Rio Open presented by Claro",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/qatar-exxonmobil-open.html",
+    "title": "Qatar ExxonMobil Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/ieb+-argentina-open.html",
+    "title": "IEB+ Argentina Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/delray-beach-open.html",
+    "title": "Delray Beach Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/dubai-duty-free-tennis-championships.html",
+    "title": "Dubai Duty Free Tennis Championships",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/bci-seguros-chile-open.html",
+    "title": "BCI Seguros Chile Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/abierto-mexicano-telcel-presentado-por-hsbc.html",
+    "title": "Abierto Mexicano Telcel presentado por HSBC",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/bnp-paribas-open.html",
+    "title": "BNP Paribas Open",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/miami-open-presented-by-itaú.html",
+    "title": "Miami Open presented by Itaú",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/tiriac-open.html",
+    "title": "Tiriac Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/grand-prix-hassan-ii.html",
+    "title": "Grand Prix Hassan II",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/fayez-sarofim-&-co-us-mens-clay-court-championship.html",
+    "title": "Fayez Sarofim & Co. U.S. Men's Clay Court Championship",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/barcelona-open-banc-sabadell.html",
+    "title": "Barcelona Open Banc Sabadell",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/rolex-monte-carlo-masters.html",
+    "title": "Rolex Monte-Carlo Masters",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/bmw-open-by-bitpanda.html",
+    "title": "BMW Open by Bitpanda",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/mutua-madrid-open.html",
+    "title": "Mutua Madrid Open",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/internazionali-bnl-ditalia.html",
+    "title": "Internazionali BNL d'Italia",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/gonet-geneva-open.html",
+    "title": "Gonet Geneva Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/hamburg-open.html",
+    "title": "Hamburg Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/roland-garros.html",
+    "title": "Roland-Garros",
+    "category": "Grand Slam"
+  },
+  {
+    "url": "tournaments/boss-open.html",
+    "title": "BOSS Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/libema-open.html",
+    "title": "Libema Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/hsbc-championships.html",
+    "title": "HSBC Championships",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/terra-wortmann-open.html",
+    "title": "Terra Wortmann Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/lexus-eastbourne-open.html",
+    "title": "Lexus Eastbourne Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/vanda-pharmaceuticals-mallorca-championships.html",
+    "title": "Vanda Pharmaceuticals Mallorca Championships",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/the-championships-wimbledon.html",
+    "title": "The Championships, Wimbledon",
+    "category": "Grand Slam"
+  },
+  {
+    "url": "tournaments/nordea-open.html",
+    "title": "Nordea Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/efg-swiss-open-gstaad.html",
+    "title": "EFG Swiss Open Gstaad",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/millennium-estoril-open.html",
+    "title": "Millennium Estoril Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/plava-laguna-croatia-open-umag.html",
+    "title": "Plava Laguna Croatia Open Umag",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/generali-open.html",
+    "title": "Generali Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/mubadala-citi-dc-open.html",
+    "title": "Mubadala Citi DC Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/mifel-tennis-open-by-telcel-oppo.html",
+    "title": "Mifel Tennis Open by Telcel Oppo",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/national-bank-open-presented-by-rogers.html",
+    "title": "National Bank Open presented by Rogers",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/cincinnati-open.html",
+    "title": "Cincinnati Open",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/winston-salem-open.html",
+    "title": "Winston-Salem Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/us-open.html",
+    "title": "US Open",
+    "category": "Grand Slam"
+  },
+  {
+    "url": "tournaments/chengdu-open.html",
+    "title": "Chengdu Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/hangzhou-open.html",
+    "title": "Hangzhou Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/davis-cup-qualifiers-2nd-round.html",
+    "title": "Davis Cup Qualifiers 2nd Round",
+    "category": "Davis Cup"
+  },
+  {
+    "url": "tournaments/kinoshita-group-japan-open-tennis-championships.html",
+    "title": "Kinoshita Group Japan Open Tennis Championships",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/china-open.html",
+    "title": "China Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/laver-cup.html",
+    "title": "Laver Cup",
+    "category": "Laver Cup"
+  },
+  {
+    "url": "tournaments/rolex-shanghai-masters.html",
+    "title": "Rolex Shanghai Masters",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/almaty-open.html",
+    "title": "Almaty Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/bnp-paribas-nordic-open.html",
+    "title": "BNP Paribas Nordic Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/bnp-paribas-fortis-european-open.html",
+    "title": "BNP Paribas Fortis European Open",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/erste-bank-open.html",
+    "title": "Erste Bank Open",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/swiss-indoors-basel.html",
+    "title": "Swiss Indoors Basel",
+    "category": "ATP 500"
+  },
+  {
+    "url": "tournaments/grand-prix-auvergne-rhône-alpes.html",
+    "title": "Grand Prix Auvergne-Rhône-Alpes",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/rolex-paris-masters.html",
+    "title": "Rolex Paris Masters",
+    "category": "ATP Masters 1000"
+  },
+  {
+    "url": "tournaments/tbd-event.html",
+    "title": "TBD",
+    "category": "ATP 250"
+  },
+  {
+    "url": "tournaments/nitto-atp-finals.html",
+    "title": "Nitto ATP Finals",
+    "category": "ATP Finals"
+  },
+  {
+    "url": "tournaments/davis-cup-finals.html",
+    "title": "Davis Cup Finals",
+    "category": "Davis Cup"
+  },
+  {
+    "url": "tournaments/next-gen-atp-finals.html",
+    "title": "Next Gen ATP Finals",
+    "category": "ATP Finals"
+  }
+]
