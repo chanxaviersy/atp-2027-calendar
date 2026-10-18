@@ -1,0 +1,808 @@
+# ATP Tour 2027 - Complete Tournament Dataset
+# Source: ATP 2027 Calendar (14 January 2026 update)
+# Total: 60+ events across 4 Grand Slams, 9 Masters 1000, 13 ATP 500, 32+ ATP 250
+# Updated: 2026-10-18
+
+- week: 1
+  start_date: 2027-01-01
+  end_date: 2027-01-04
+  city: "Perth, Sydney"
+  tournament: "United Cup"
+  surface: "Hard"
+  category: "United Cup"
+  draws: 18
+  notes: ["6"]
+  country: "AUS"
+  url: "https://www.unitedcup.com/"
+
+- week: 1
+  start_date: 2027-01-04
+  end_date: 2027-01-11
+  city: "Brisbane"
+  tournament: "Brisbane International presented by ANZ"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 32
+  notes: []
+  country: "AUS"
+  url: "https://www.brisbaneinternational.com.au/"
+
+- week: 1
+  start_date: 2027-01-04
+  end_date: 2027-01-11
+  city: "Auckland"
+  tournament: "ASB Classic"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["8"]
+  country: "NZL"
+  url: "https://www.asbclassic.co.nz/"
+
+- week: 1
+  start_date: 2027-01-11
+  end_date: 2027-01-17
+  city: "Hong Kong"
+  tournament: "Bank of China Hong Kong Tennis Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "HKG"
+  url: "https://www.hktennisopen.hk/"
+
+- week: 1
+  start_date: 2027-01-11
+  end_date: 2027-01-17
+  city: "Adelaide"
+  tournament: "Adelaide International"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["8"]
+  country: "AUS"
+  url: "https://www.adelaideinternational.com.au/"
+
+# === JANUARY - Australian Open ===
+- week: 2
+  start_date: 2027-01-17
+  end_date: 2027-01-31
+  city: "Melbourne"
+  tournament: "Australian Open"
+  surface: "Hard"
+  category: "Grand Slam"
+  draws: 128
+  notes: ["1", "3"]
+  country: "AUS"
+  url: "https://www.ausopen.com/"
+
+# === FEBRUARY ===
+- week: 5
+  start_date: 2027-02-01
+  end_date: 2027-02-07
+  city: "Montpellier"
+  tournament: "Open Occitanie"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "FRA"
+  url: "https://www.openoccitanie.com/"
+
+- week: 5
+  start_date: 2027-02-01
+  end_date: 2027-02-07
+  city: "Multi-City"
+  tournament: "Davis Cup Qualifiers 1st Round"
+  surface: "Various"
+  category: "Davis Cup"
+  draws: null
+  notes: []
+  country: "INT"
+  url: "https://www.daviscup.com/"
+
+- week: 6
+  start_date: 2027-02-08
+  end_date: 2027-02-14
+  city: "Dallas"
+  tournament: "NEXO Dallas Open"
+  surface: "Indoor Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "USA"
+  url: "https://www.dallasopen.com/"
+
+- week: 6
+  start_date: 2027-02-08
+  end_date: 2027-02-14
+  city: "Rotterdam"
+  tournament: "ABN AMRO Open"
+  surface: "Indoor Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "NED"
+  url: "https://www.abnamroopen.nl/"
+
+- week: 6
+  start_date: 2027-02-08
+  end_date: 2027-02-14
+  city: "Rio de Janeiro"
+  tournament: "Rio Open presented by Claro"
+  surface: "Clay"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "BRA"
+  url: "https://www.rioopen.com.br/"
+
+- week: 7
+  start_date: 2027-02-15
+  end_date: 2027-02-21
+  city: "Doha"
+  tournament: "Qatar ExxonMobil Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["7"]
+  country: "QAT"
+  url: "https://www.qatarexxonmobilopen.com/"
+
+- week: 7
+  start_date: 2027-02-15
+  end_date: 2027-02-21
+  city: "Buenos Aires"
+  tournament: "IEB+ Argentina Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "ARG"
+  url: "https://www.argentinaopen.com/"
+
+- week: 7
+  start_date: 2027-02-15
+  end_date: 2027-02-21
+  city: "Delray Beach"
+  tournament: "Delray Beach Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "USA"
+  url: "https://www.delraybeachopen.com/"
+
+- week: 8
+  start_date: 2027-02-22
+  end_date: 2027-02-28
+  city: "Dubai"
+  tournament: "Dubai Duty Free Tennis Championships"
+  surface: "Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: ["8"]
+  country: "UAE"
+  url: "https://www.dubaidutyfreetennischampionships.com/"
+
+- week: 8
+  start_date: 2027-02-22
+  end_date: 2027-02-28
+  city: "Santiago"
+  tournament: "BCI Seguros Chile Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "CHI"
+  url: "https://www.chileopen.cl/"
+
+- week: 8
+  start_date: 2027-02-22
+  end_date: 2027-02-28
+  city: "Acapulco"
+  tournament: "Abierto Mexicano Telcel presentado por HSBC"
+  surface: "Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: ["8"]
+  country: "MEX"
+  url: "https://www.abiertomexicano.com/"
+
+# === MARCH - Indian Wells / Miami ===
+- week: 9
+  start_date: 2027-03-03
+  end_date: 2027-03-14
+  city: "Indian Wells"
+  tournament: "BNP Paribas Open"
+  surface: "Hard"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["4"]
+  country: "USA"
+  url: "https://www.bnpparibasopen.com/"
+
+- week: 10
+  start_date: 2027-03-17
+  end_date: 2027-03-28
+  city: "Miami"
+  tournament: "Miami Open presented by Itaú"
+  surface: "Hard"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["4"]
+  country: "USA"
+  url: "https://www.miamiopen.com/"
+
+# === APRIL - Clay Season ===
+- week: 12
+  start_date: 2027-03-29
+  end_date: 2027-04-04
+  city: "Bucharest"
+  tournament: "Tiriac Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "ROU"
+  url: "https://www.tiriacopen.ro/"
+
+- week: 12
+  start_date: 2027-03-29
+  end_date: 2027-04-04
+  city: "Marrakech"
+  tournament: "Grand Prix Hassan II"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "MAR"
+  url: "https://www.grandprixhassanii.ma/"
+
+- week: 13
+  start_date: 2027-04-05
+  end_date: 2027-04-11
+  city: "Houston"
+  tournament: "Fayez Sarofim & Co. U.S. Men's Clay Court Championship"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "USA"
+  url: "https://www.mensclaycourt.com/"
+
+- week: 14
+  start_date: 2027-04-12
+  end_date: 2027-04-18
+  city: "Barcelona"
+  tournament: "Barcelona Open Banc Sabadell"
+  surface: "Clay"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "ESP"
+  url: "https://www.barcelonaopen.com/"
+
+- week: 14
+  start_date: 2027-04-12
+  end_date: 2027-04-18
+  city: "Monte-Carlo"
+  tournament: "Rolex Monte-Carlo Masters"
+  surface: "Clay"
+  category: "ATP Masters 1000"
+  draws: 56
+  notes: []
+  country: "MON"
+  url: "https://www.montecarlotennismasters.com/"
+
+- week: 14
+  start_date: 2027-04-12
+  end_date: 2027-04-18
+  city: "Munich"
+  tournament: "BMW Open by Bitpanda"
+  surface: "Clay"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "GER"
+  url: "https://www.bmwopen.de/"
+
+- week: 16
+  start_date: 2027-04-21
+  end_date: 2027-05-02
+  city: "Madrid"
+  tournament: "Mutua Madrid Open"
+  surface: "Clay"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["4"]
+  country: "ESP"
+  url: "https://www.madridopen.com/"
+
+# === MAY - Rome / Roland Garros ===
+- week: 18
+  start_date: 2027-05-05
+  end_date: 2027-05-16
+  city: "Rome"
+  tournament: "Internazionali BNL d'Italia"
+  surface: "Clay"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["4"]
+  country: "ITA"
+  url: "https://www.internazionalibnlditalia.com/"
+
+- week: 19
+  start_date: 2027-05-16
+  end_date: 2027-05-22
+  city: "Geneva"
+  tournament: "Gonet Geneva Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: ["1", "8"]
+  country: "SUI"
+  url: "https://www.genevaopen.ch/"
+
+- week: 19
+  start_date: 2027-05-16
+  end_date: 2027-05-22
+  city: "Hamburg"
+  tournament: "Hamburg Open"
+  surface: "Clay"
+  category: "ATP 500"
+  draws: 32
+  notes: ["1", "8"]
+  country: "GER"
+  url: "https://www.hamburgopen.com/"
+
+- week: 21
+  start_date: 2027-05-23
+  end_date: 2027-06-06
+  city: "Paris"
+  tournament: "Roland-Garros"
+  surface: "Clay"
+  category: "Grand Slam"
+  draws: 128
+  notes: ["1"]
+  country: "FRA"
+  url: "https://www.rolandgarros.com/"
+
+# === JUNE - Grass Season ===
+- week: 23
+  start_date: 2027-06-07
+  end_date: 2027-06-13
+  city: "Stuttgart"
+  tournament: "BOSS Open"
+  surface: "Grass"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "GER"
+  url: "https://www.bossopen.com/"
+
+- week: 23
+  start_date: 2027-06-07
+  end_date: 2027-06-13
+  city: "'s-Hertogenbosch"
+  tournament: "Libema Open"
+  surface: "Grass"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "NED"
+  url: "https://www.libema-open.nl/"
+
+- week: 24
+  start_date: 2027-06-14
+  end_date: 2027-06-20
+  city: "London"
+  tournament: "HSBC Championships"
+  surface: "Grass"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "GBR"
+  url: "https://www.hsbchamps.com/"
+
+- week: 24
+  start_date: 2027-06-14
+  end_date: 2027-06-20
+  city: "Halle"
+  tournament: "Terra Wortmann Open"
+  surface: "Grass"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "GER"
+  url: "https://www.terrawortmannopen.de/"
+
+- week: 25
+  start_date: 2027-06-20
+  end_date: 2027-06-26
+  city: "Eastbourne"
+  tournament: "Lexus Eastbourne Open"
+  surface: "Grass"
+  category: "ATP 250"
+  draws: 28
+  notes: ["8"]
+  country: "GBR"
+  url: "https://www.eastbourneopen.com/"
+
+- week: 25
+  start_date: 2027-06-20
+  end_date: 2027-06-26
+  city: "Mallorca"
+  tournament: "Vanda Pharmaceuticals Mallorca Championships"
+  surface: "Grass"
+  category: "ATP 250"
+  draws: 28
+  notes: ["1", "8"]
+  country: "ESP"
+  url: "https://www.mallorcachampionships.com/"
+
+- week: 26
+  start_date: 2027-06-28
+  end_date: 2027-07-11
+  city: "London"
+  tournament: "The Championships, Wimbledon"
+  surface: "Grass"
+  category: "Grand Slam"
+  draws: 128
+  notes: []
+  country: "GBR"
+  url: "https://www.wimbledon.com/"
+
+# === JULY - Clay Return ===
+- week: 28
+  start_date: 2027-07-12
+  end_date: 2027-07-18
+  city: "Båstad"
+  tournament: "Nordea Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "SWE"
+  url: "https://www.nordeaopen.se/"
+
+- week: 28
+  start_date: 2027-07-12
+  end_date: 2027-07-18
+  city: "Gstaad"
+  tournament: "EFG Swiss Open Gstaad"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "SUI"
+  url: "https://www.swissopengstaad.ch/"
+
+- week: 28
+  start_date: 2027-07-12
+  end_date: 2027-07-18
+  city: "Estoril"
+  tournament: "Millennium Estoril Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "POR"
+  url: "https://www.estorilopen.pt/"
+
+- week: 28
+  start_date: 2027-07-12
+  end_date: 2027-07-18
+  city: "Umag"
+  tournament: "Plava Laguna Croatia Open Umag"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "CRO"
+  url: "https://www.croatiaopen.hr/"
+
+- week: 29
+  start_date: 2027-07-19
+  end_date: 2027-07-25
+  city: "Kitzbühel"
+  tournament: "Generali Open"
+  surface: "Clay"
+  category: "ATP 250"
+  draws: 28
+  notes: ["8"]
+  country: "AUT"
+  url: "https://www.generali-open.com/"
+
+- week: 29
+  start_date: 2027-07-19
+  end_date: 2027-07-25
+  city: "Washington, D.C."
+  tournament: "Mubadala Citi DC Open"
+  surface: "Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "USA"
+  url: "https://www.dcopen.com/"
+
+- week: 30
+  start_date: 2027-07-26
+  end_date: 2027-07-31
+  city: "Los Cabos"
+  tournament: "Mifel Tennis Open by Telcel Oppo"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["8"]
+  country: "MEX"
+  url: "https://www.mifeltennisopen.com/"
+
+# === AUGUST - North American Hard Court ===
+- week: 31
+  start_date: 2027-08-01
+  end_date: 2027-08-08
+  city: "Toronto"
+  tournament: "National Bank Open presented by Rogers"
+  surface: "Hard"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["1", "12"]
+  country: "CAN"
+  url: "https://www.nationalbankopen.com/"
+
+- week: 32
+  start_date: 2027-08-12
+  end_date: 2027-08-23
+  city: "Cincinnati"
+  tournament: "Cincinnati Open"
+  surface: "Hard"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["5"]
+  country: "USA"
+  url: "https://www.cincinnatiopen.com/"
+
+- week: 33
+  start_date: 2027-08-22
+  end_date: 2027-08-28
+  city: "Winston-Salem"
+  tournament: "Winston-Salem Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 48
+  notes: ["1", "8"]
+  country: "USA"
+  url: "https://www.winstonsalemopen.com/"
+
+- week: 35
+  start_date: 2027-08-29
+  end_date: 2027-09-12
+  city: "New York"
+  tournament: "US Open"
+  surface: "Hard"
+  category: "Grand Slam"
+  draws: 128
+  notes: ["1"]
+  country: "USA"
+  url: "https://www.usopen.org/"
+
+# === SEPTEMBER ===
+- week: 37
+  start_date: 2027-09-19
+  end_date: 2027-09-25
+  city: "Chengdu"
+  tournament: "Chengdu Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["4", "10"]
+  country: "CHN"
+  url: "https://www.chengduopen.com/"
+
+- week: 37
+  start_date: 2027-09-19
+  end_date: 2027-09-25
+  city: "Hangzhou"
+  tournament: "Hangzhou Open"
+  surface: "Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["4", "10"]
+  country: "CHN"
+  url: "https://www.hangzhouopen.com/"
+
+- week: 37
+  start_date: 2027-09-19
+  end_date: 2027-09-25
+  city: "Multi-City"
+  tournament: "Davis Cup Qualifiers 2nd Round"
+  surface: "Various"
+  category: "Davis Cup"
+  draws: null
+  notes: []
+  country: "INT"
+  url: "https://www.daviscup.com/"
+
+- week: 38
+  start_date: 2027-09-22
+  end_date: 2027-09-25
+  city: "Tokyo"
+  tournament: "Kinoshita Group Japan Open Tennis Championships"
+  surface: "Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: ["4", "10"]
+  country: "JPN"
+  url: "https://www.japanopentennis.com/"
+
+- week: 38
+  start_date: 2027-09-29
+  end_date: 2027-10-04
+  city: "Beijing"
+  tournament: "China Open"
+  surface: "Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: ["4", "10"]
+  country: "CHN"
+  url: "https://www.chinaopen.com/"
+
+- week: 38
+  start_date: 2027-09-24
+  end_date: 2027-09-26
+  city: "TBD"
+  tournament: "Laver Cup"
+  surface: "Indoor Hard"
+  category: "Laver Cup"
+  draws: 2
+  notes: ["6"]
+  country: "INT"
+  url: "https://www.lavercup.com/"
+
+# === OCTOBER - Asian / European Indoor ===
+- week: 40
+  start_date: 2027-10-06
+  end_date: 2027-10-17
+  city: "Shanghai"
+  tournament: "Rolex Shanghai Masters"
+  surface: "Hard"
+  category: "ATP Masters 1000"
+  draws: 96
+  notes: ["4"]
+  country: "CHN"
+  url: "https://www.shanghaimasters.com/"
+
+- week: 41
+  start_date: 2027-10-18
+  end_date: 2027-10-24
+  city: "Almaty"
+  tournament: "Almaty Open"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "KAZ"
+  url: "https://www.almatyopen.kz/"
+
+- week: 41
+  start_date: 2027-10-18
+  end_date: 2027-10-24
+  city: "Stockholm"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  tournament: "BNP Paribas Nordic Open"
+  country: "SWE"
+  url: "https://www.nordicopen.se/"
+
+- week: 41
+  start_date: 2027-10-18
+  end_date: 2027-10-24
+  city: "Brussels"
+  tournament: "BNP Paribas Fortis European Open"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: ["1", "8"]
+  country: "BEL"
+  url: "https://www.europeanopen.be/"
+
+- week: 42
+  start_date: 2027-10-25
+  end_date: 2027-10-31
+  city: "Vienna"
+  tournament: "Erste Bank Open"
+  surface: "Indoor Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "AUT"
+  url: "https://www.erstebank-open.com/"
+
+- week: 42
+  start_date: 2027-10-25
+  end_date: 2027-10-31
+  city: "Basel"
+  tournament: "Swiss Indoors Basel"
+  surface: "Indoor Hard"
+  category: "ATP 500"
+  draws: 32
+  notes: []
+  country: "SUI"
+  url: "https://www.swissindoorsbasel.ch/"
+
+- week: 42
+  start_date: 2027-10-25
+  end_date: 2027-10-31
+  city: "Lyon"
+  tournament: "Grand Prix Auvergne-Rhône-Alpes"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "FRA"
+  url: "https://www.grandprixlyon.com/"
+
+# === NOVEMBER - Paris Masters / Finals ===
+- week: 44
+  start_date: 2027-11-01
+  end_date: 2027-11-07
+  city: "Paris"
+  tournament: "Rolex Paris Masters"
+  surface: "Indoor Hard"
+  category: "ATP Masters 1000"
+  draws: 56
+  notes: []
+  country: "FRA"
+  url: "https://www.rolexparismasters.com/"
+
+- week: 45
+  start_date: 2027-11-07
+  end_date: 2027-11-13
+  city: "TBD"
+  tournament: "TBD"
+  surface: "Indoor Hard"
+  category: "ATP 250"
+  draws: 28
+  notes: []
+  country: "INT"
+  url: ""
+
+- week: 46
+  start_date: 2027-11-14
+  end_date: 2027-11-21
+  city: "Italy"
+  tournament: "Nitto ATP Finals"
+  surface: "Indoor Hard"
+  category: "ATP Finals"
+  draws: 8
+  notes: ["1"]
+  country: "ITA"
+  url: "https://www.nittoatpfinals.com/"
+
+- week: 47
+  start_date: 2027-11-19
+  end_date: 2027-11-27
+  city: "Italy"
+  tournament: "Davis Cup Finals"
+  surface: "Indoor Hard"
+  category: "Davis Cup"
+  draws: 8
+  notes: []
+  country: "ITA"
+  url: "https://www.daviscup.com/"
+
+# === DECEMBER - Next Gen Finals ===
+- week: 50
+  start_date: 2027-12-01
+  end_date: 2027-12-05
+  city: "TBD"
+  tournament: "Next Gen ATP Finals"
+  surface: "Indoor Hard"
+  category: "ATP Finals"
+  draws: 8
+  notes: []
+  country: "INT"
+  url: "https://www.nextgenatpfinals.com/"

@@ -1,0 +1,58 @@
+---
+layout: base
+title: "Fayez Sarofim & Co. U.S. Men's Clay Court Championship"
+description: "Fayez Sarofim & Co. U.S. Men's Clay Court Championship - 2027 ATP Tour event in Houston"
+permalink: /tournaments/fayez-sarofim-&-co-us-mens-clay-court-championship/
+---
+
+<nav class="breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a> →
+  <a href="{{ '/tournaments/' | relative_url }}">Tournaments</a> →
+  <span>Fayez Sarofim & Co. U.S. Men's Clay Court Championship</span>
+</nav>
+
+<article class="tournament-detail">
+  <header class="t-header">
+    <div class="t-cat">
+      🎾 <span class="cat-badge cat-atp-250">ATP 250</span>
+    </div>
+    <h1>🇺🇸 Fayez Sarofim & Co. U.S. Men's Clay Court Championship</h1>
+    <p class="t-subtitle">Houston, 🇺🇸 | Week 13 of 2027</p>
+  </header>
+
+  <section class="t-quick-facts">
+    <div class="fact"><div class="label">📅 Dates</div><div class="value">2027-04-05 → 2027-04-11</div></div>
+    <div class="fact"><div class="label">📍 Venue</div><div class="value">Houston</div></div>
+    <div class="fact"><div class="label">🟠 Surface</div><div class="value">Clay</div></div>
+    <div class="fact"><div class="label">🎯 Category</div><div class="value">ATP 250</div></div>
+    <div class="fact"><div class="label">📅 Calendar Week</div><div class="value">Week 13</div></div>
+    <div class="fact"><div class="label">👥 Draw Size</div><div class="value">28</div></div>
+  </section>
+
+  <section class="t-description">
+    <h2>About This Tournament</h2>
+    <p>An ATP 250 clay court tournament held in Houston, Texas. The only ATP clay court event in the United States.</p>
+  </section>
+
+  <section class="t-official">
+    <h2>Official Resources</h2>
+    <p>
+      <a href="https://www.mensclaycourt.com/" target="_blank" rel="noopener" class="btn btn-primary">
+        🌍 Visit Official Tournament Website ↗
+      </a>
+    </p>
+  </section>
+
+  <section class="t-rankings">
+    <h2>📈 Live ATP Rankings</h2>
+    <p>Check current ATP rankings to see who's likely to compete:</p>
+    <ul>
+      <li><a href="https://www.atptour.com/en/rankings/singles" target="_blank" rel="noopener">ATP Singles Rankings ↗</a></li>
+      <li><a href="https://www.atptour.com/en/rankings/race-to-turin" target="_blank" rel="noopener">Race to Turin (year-to-date) ↗</a></li>
+    </ul>
+  </section>
+
+  <section class="t-back">
+    <p><a href="{{ '/tournaments/' | relative_url }}">← Back to all tournaments</a></p>
+  </section>
+</article>

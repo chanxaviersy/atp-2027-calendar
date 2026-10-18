@@ -1,0 +1,22 @@
+---
+layout: null
+sitemap: false
+---
+{% assign sorted = site.data.tournaments | sort: "tournament" %}
+[
+{% for t in sorted %}
+  {
+    "tournament": {{ t.tournament | jsonify }},
+    "city": {{ t.city | jsonify }},
+    "country": {{ t.country | jsonify }},
+    "surface": {{ t.surface | jsonify }},
+    "category": {{ t.category | jsonify }},
+    "start_date": {{ t.start_date | jsonify }},
+    "end_date": {{ t.end_date | jsonify }},
+    "draws": {{ t.draws | jsonify }},
+    "url": {{ t.url | jsonify }},
+    "week": {{ t.week | jsonify }},
+    "slug": {{ t.tournament | slugify | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

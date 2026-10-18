@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>🎾</svg>">
+  {%- feed_meta -%}
+  {%- seo -%}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ '/' | relative_url }}">🎾 {{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/calendar/' | relative_url }}">Calendar</a>
+        <a href="{{ '/tournaments/' | relative_url }}">Tournaments</a>
+        <a href="{{ '/category/' | relative_url }}">Categories</a>
+        <a href="{{ '/rankings/' | relative_url }}">Live Rankings ↗</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>
+        🎾 {{ site.title }} ·
+        Data: <a href="https://www.atptour.com/" target="_blank" rel="noopener">ATP Tour</a> ·
+        <a href="{{ site.repository | prepend: 'https://github.com/' }}">GitHub</a>
+      </p>
+      <p class="footer-meta">
+        <sub>This is a fan project. Not affiliated with the ATP Tour. Calendar data last updated 14 January 2026.</sub>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

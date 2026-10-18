@@ -1,0 +1,54 @@
+title: ATP Tour 2027 Calendar
+description: Complete 2027 ATP Tour season — 66 tournaments, live ATP rankings, and detailed event info
+email: your-email@example.com
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/atp-2027-calendar"
+repository: chanxaviersy/atp-2027-calendar
+
+lang: en
+timezone: UTC
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+
+permalink: /:title/
+
+# Site navigation
+nav:
+  - title: Home
+    url: /
+  - title: Calendar
+    url: /calendar/
+  - title: Tournaments
+    url: /tournaments/
+  - title: By Category
+    url: /category/
+  - title: Live Rankings
+    url: /rankings/
+  - title: About
+    url: /about/
+
+# Social links
+github_username: chanxaviersy
+
+# Site features
+show_downloads: true
+google_analytics: ""
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - node_modules/
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
