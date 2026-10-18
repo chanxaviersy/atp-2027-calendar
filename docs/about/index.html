@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | ATP Tour 2027</title>
+<meta name="description" content="ATP Tour 2027 - 66 tournaments, live ATP rankings, official tournament links">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%F0%9F%8E%BE%3C/svg%3E">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="">🎾 ATP Tour 2027</a>
+    <nav class="site-nav">
+        <a class="" href="">Home</a>
+        <a class="" href="calendar/">Calendar</a>
+        <a class="" href="tournaments/">Tournaments</a>
+        <a class="" href="category/">Categories</a>
+        <a class="" href="rankings/" target="_blank" rel="noopener">Live Rankings ↗</a>
+        <a class="active" href="about/">About</a>
+    </nav>
+  </div>
+</header>
+<main class="page-content">
+  <div class="wrapper">
+
+<section class="hero">
+  <h1>ℹ️ About This Project</h1>
+  <p class="lead">A clean, fast, structured reference for the 2027 ATP Tour season.</p>
+</section>
+
+<h2>🎯 Goals</h2>
+<ol>
+  <li><strong>Single source of truth</strong> — All tournament data lives in one YAML file</li>
+  <li><strong>No stale data</strong> — Direct links to live rankings (no scraping)</li>
+  <li><strong>Free hosting</strong> — Static HTML on GitHub Pages</li>
+  <li><strong>Zero JS</strong> — Pure HTML/CSS for fast loads and great SEO</li>
+  <li><strong>Community-friendly</strong> — Anyone can submit a PR to fix a typo or update dates</li>
+</ol>
+
+<h2>🛠️ Tech Stack</h2>
+<table>
+  <tr><th>Layer</th><th>Technology</th></tr>
+  <tr><td>Generator</td><td>Python (this script)</td></tr>
+  <tr><td>Output</td><td>Pure static HTML/CSS</td></tr>
+  <tr><td>Data</td><td>YAML</td></tr>
+  <tr><td>Hosting</td><td>GitHub Pages</td></tr>
+  <tr><td>Version control</td><td>Git</td></tr>
+</table>
+
+<h2>📂 Project Structure</h2>
+<pre><code>atp-2027-calendar/
+├── _data/
+│   ├── tournaments.yml      # Master data (66 events)
+│   └── notes.yml            # Footnote legend
+├── _scripts/
+│   ├── build.py             # This script - builds static HTML
+│   └── iso_codes.py         # ISO 3166 mapping
+├── docs/                    # Output (auto-generated)
+│   ├── index.html
+│   ├── calendar.html
+│   ├── tournaments.html
+│   ├── category.html
+│   ├── rankings.html
+│   ├── about.html
+│   ├── 404.html
+│   ├── assets/css/style.css
+│   └── tournaments/[name].html  # 66 detail pages
+├── _config.yml              # (legacy, for Jekyll)
+├── Gemfile                  # (legacy)
+└── README.md</code></pre>
+
+<h2>🔄 How to Update</h2>
+<p>When the ATP releases a calendar update:</p>
+<ol>
+  <li>Edit <code>_data/tournaments.yml</code></li>
+  <li>Run <code>python3 _scripts/build.py</code></li>
+  <li>Commit and push the <code>docs/</code> folder</li>
+</ol>
+
+<h2>📜 Data License</h2>
+<ul>
+  <li><strong>Calendar data</strong>: © ATP Tour. Used under fair use for informational purposes.</li>
+  <li><strong>Tournament websites</strong>: Linked to, not embedded.</li>
+  <li><strong>Rankings</strong>: Direct links to the official ATP site, not republished.</li>
+</ul>
+
+<h2>🤝 Contributing</h2>
+<p>PRs welcome! Common contributions:</p>
+<ul>
+  <li>🐛 Fix typos or broken links</li>
+  <li>📅 Update tournament dates (after new ATP calendar release)</li>
+  <li>🏟️ Add new tournaments</li>
+  <li>🌐 Add country flag mapping for missing codes</li>
+</ul>
+
+<p><em>Built with ❤️ by tennis fans. Not affiliated with the ATP Tour.</em></p>
+
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrapper">
+    <p>🎾 ATP Tour 2027 · Data: <a href="https://www.atptour.com/" target="_blank" rel="noopener">ATP Tour</a> · <a href="https://github.com/chanxaviersy/atp-2027-calendar">GitHub</a></p>
+    <p class="footer-meta">Fan project. Not affiliated with ATP. Calendar data: 14 January 2026 update.</p>
+  </div>
+</footer>
+</body>
+</html>

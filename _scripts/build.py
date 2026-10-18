@@ -18,7 +18,7 @@ import re
 # Configuration
 # ============================================================
 ROOT = Path(__file__).parent.parent
-OUT = ROOT / "docs-build"  # Build output directory
+OUT = ROOT / "docs"  # Build output directory
 DATA_FILE = ROOT / "_data" / "tournaments.yml"
 ISO_FILE = Path(__file__).parent / "iso_codes.py"
 
@@ -658,25 +658,34 @@ def main():
         dst_css.write_text(make_css())
         print(f"  ✅ assets/css/style.css ({len(make_css())} bytes)")
 
-    # Generate pages
-    pages_to_build = [
-        ("index.html", build_index(tournaments)),
-        ("calendar.html", build_calendar(tournaments)),
-        ("tournaments.html", build_tournaments(tournaments)),
-        ("category.html", build_category(tournaments)),
-        ("rankings.html", build_rankings()),
-        ("about.html", build_about()),
-        ("404.html", make_404()),
-    ]
-    for name, content in pages_to_build:
-        (OUT / name).write_text(content)
-        print(f"  ✅ {name}")
+    # Generate pages — each as /<name>/index.html for clean URLs
+    # But index.html goes to the root, not /index/
+    (OUT / "index.html").write_text(build_index(tournaments))
+    print(f"  ✅ index.html (root)")
+
+    for name, content in [
+        ("calendar", build_calendar(tournaments)),
+        ("tournaments", build_tournaments(tournaments)),
+        ("category", build_category(tournaments)),
+        ("rankings", build_rankings()),
+        ("about", build_about()),
+    ]:
+        out_dir = OUT / name
+        out_dir.mkdir(exist_ok=True)
+        (out_dir / "index.html").write_text(content)
+        print(f"  ✅ {name}/index.html")
+
+    # 404 at root
+    (OUT / "404.html").write_text(make_404())
+    print(f"  ✅ 404.html")
 
     # Tournament detail pages
     for t in tournaments:
         slug = slugify(t["tournament"], t.get("city", ""))
-        (OUT / "tournaments" / f"{slug}.html").write_text(build_tournament_detail(t))
-    print(f"  ✅ tournaments/ ({n} detail pages)")
+        out_dir = OUT / "tournaments" / slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "index.html").write_text(build_tournament_detail(t))
+    print(f"  ✅ tournaments/[slug]/index.html ({n} detail pages)")
 
     # JSON-LD sitemap for SEO
     sitemap_items = []
