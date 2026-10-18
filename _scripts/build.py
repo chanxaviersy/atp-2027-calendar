@@ -79,6 +79,8 @@ def render_tournament_card(t, base_url=""):
     if t.get("url"):
         url_html = f'<a href="{t["url"]}" target="_blank" rel="noopener" class="ext-link">Official ↗</a>'
 
+    gcal_url = build_google_calendar_url(t, base_url)
+
     return f'''
     <div class="tournament-card" data-category="{cat}">
       <div class="card-header">
@@ -95,10 +97,119 @@ def render_tournament_card(t, base_url=""):
       <p class="card-dates">🗓️ {start_d} – {end_d}</p>
       <div class="card-links">
         <a href="{base_url}tournaments/{slug}/" class="card-link">Details →</a>
+        <a href="{gcal_url}" target="_blank" rel="noopener" class="gcal-link" title="Add this tournament to Google Calendar">📅 + Google</a>
         {url_html}
       </div>
     </div>
     '''
+
+
+# ============================================================
+# Google Calendar / iCal helpers
+# ============================================================
+
+def _urlencode(s):
+    from urllib.parse import quote
+    return quote(str(s), safe="'")
+
+
+def _ics_escape(s):
+    """Escape text for ICS fields per RFC 5545."""
+    return (str(s)
+            .replace("\\", "\\\\")
+            .replace(",", "\\,")
+            .replace(";", "\\;")
+            .replace("\n", "\\n"))
+
+
+def _to_ics_date(date_str, all_day=True):
+    """Convert YYYY-MM-DD to ICS DATE format YYYYMMDD."""
+    return str(date_str).replace("-", "")
+
+
+def build_google_calendar_url(t, base_url=""):
+    """Generate a one-click Google Calendar 'Add Event' URL for a single tournament.
+
+    Google supports all-day events via the YYYYMMDD/YYYYMMDD format.
+    """
+    from urllib.parse import urlencode
+    title = f"🎾 {t['tournament']}"
+    start = _to_ics_date(t["start_date"])
+    # Google all-day end is EXCLUSIVE — add 1 day to end_date
+    end_excl = _to_ics_date(_add_one_day(t["end_date"]))
+    details_parts = [
+        f"{t['category']} tournament on {t['surface']} courts in {t['city']}.",
+    ]
+    if t.get("draws"):
+        details_parts.append(f"Draw size: {t['draws']}.")
+    details_parts.append(f"Full details: {base_url}tournaments/{slugify(t['tournament'], t.get('city', ''))}/")
+    if t.get("url"):
+        details_parts.append(f"Official site: {t['url']}")
+    details = "\n".join(details_parts)
+    location = t.get("city", "")
+    params = {
+        "action": "TEMPLATE",
+        "text": title,
+        "dates": f"{start}/{end_excl}",
+        "details": details,
+        "location": location,
+    }
+    return "https://calendar.google.com/calendar/render?" + urlencode(params, safe=":/?&=")
+
+
+def _add_one_day(date_str):
+    """Return YYYY-MM-DD for the day after the given date."""
+    from datetime import date, timedelta
+    y, m, d = [int(x) for x in str(date_str).split("-")]
+    return (date(y, m, d) + timedelta(days=1)).isoformat()
+
+
+def build_ics(tournaments, base_url=""):
+    """Generate an iCalendar (.ics) feed for all tournaments. Valid RFC 5545."""
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//ATP Tour 2027 Calendar//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        f"X-WR-CALNAME:ATP Tour 2027",
+        f"X-WR-CALDESC:Complete 2027 ATP Tour season — {len(tournaments)} tournaments",
+        "X-WR-TIMEZONE:UTC",
+    ]
+    from datetime import datetime
+    stamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    for t in tournaments:
+        slug = slugify(t["tournament"], t.get("city", ""))
+        title = f"🎾 {t['tournament']}"
+        start = _to_ics_date(t["start_date"])
+        end_excl = _to_ics_date(_add_one_day(t["end_date"]))
+        desc_parts = [
+            f"{t['category']} on {t['surface']} in {t['city']}.",
+        ]
+        if t.get("draws"):
+            desc_parts.append(f"Draw: {t['draws']}.")
+        desc_parts.append(f"Details: {base_url}tournaments/{slug}/")
+        if t.get("url"):
+            desc_parts.append(f"Official: {t['url']}")
+        desc = "\\n".join([_ics_escape(p) for p in desc_parts])
+        loc = _ics_escape(t.get("city", ""))
+        uid = f"{start}-{slug}@atp-2027-calendar"
+        lines.extend([
+            "BEGIN:VEVENT",
+            f"UID:{uid}",
+            f"DTSTAMP:{stamp}",
+            f"DTSTART;VALUE=DATE:{start}",
+            f"DTEND;VALUE=DATE:{end_excl}",
+            f"SUMMARY:{_ics_escape(title)}",
+            f"DESCRIPTION:{desc}",
+            f"LOCATION:{loc}",
+            f"URL:{base_url}tournaments/{slug}/",
+            "TRANSP:TRANSPARENT",
+            "END:VEVENT",
+        ])
+    lines.append("END:VCALENDAR")
+    # ICS spec recommends CRLF line endings
+    return "\r\n".join(lines) + "\r\n"
 
 
 def html_escape(s):
@@ -252,11 +363,28 @@ def build_calendar(tournaments, base_url=""):
     months = ["January", "February", "March", "April", "May", "June",
               "July", "August", "September", "October", "November", "December"]
 
-    body = '''
+    ics_url = f"{base_url}calendar.ics"
+    gcal_import = ("https://calendar.google.com/calendar/render?cid=" +
+                   _urlencode(f"{base_url}calendar.ics").replace("https%3A%2F%2F", "https://"))
+
+    body = f'''
 <section class="hero">
   <h1>📅 2027 Calendar</h1>
   <p class="lead">Complete season schedule, grouped by month. Click any event for full details.</p>
 </section>
+
+<div class="gcal-banner">
+  <div class="gcal-icon">📆</div>
+  <div class="gcal-text">
+    <strong>Add to Google Calendar</strong>
+    <p>One click to import the entire 2027 ATP season — or subscribe to get automatic updates whenever the schedule changes.</p>
+  </div>
+  <div class="gcal-actions">
+    <a href="{gcal_import}" target="_blank" rel="noopener" class="btn btn-primary">➕ Add all events</a>
+    <a href="{ics_url}" download="atp-2027.ics" class="btn">⬇️ Download .ics</a>
+    <a href="https://support.google.com/calendar/answer/37161" target="_blank" rel="noopener" class="gcal-help">How to subscribe ↗</a>
+  </div>
+</div>
 '''
 
     for i, month in enumerate(months, 1):
@@ -547,6 +675,17 @@ def build_tournament_detail(t, base_url=""):
             other_html += f'<li>{xflag} <a href="{base_url}tournaments/{xslug}/">{html_escape(x["tournament"])}</a> ({html_escape(x["city"])})</li>'
         other_html += '</ul></section>'
 
+    gcal_url = build_google_calendar_url(t, base_url)
+    gcal_section = f'''
+<section class="t-official">
+  <h2>📅 Add to Your Calendar</h2>
+  <p>One-click import to Google Calendar, or download the .ics file for Apple Calendar / Outlook.</p>
+  <p>
+    <a href="{gcal_url}" target="_blank" rel="noopener" class="btn btn-primary">➕ Add to Google Calendar</a>
+    <a href="{base_url}calendar.ics" class="btn">⬇️ Download full season (.ics)</a>
+  </p>
+</section>'''
+
     body = f'''
 <nav class="breadcrumb">
   <a href="{base_url}">Home</a> →
@@ -571,6 +710,8 @@ def build_tournament_detail(t, base_url=""):
     <div class="fact"><div class="label">🎯 Category</div><div class="value">{cat}</div></div>
     {draws_html}
   </section>
+
+  {gcal_section}
 
   <section class="t-description">
     <h2>About</h2>
@@ -702,6 +843,10 @@ def main():
     # robots.txt
     (OUT / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: /sitemap.xml\n")
     print(f"  ✅ robots.txt")
+
+    # iCalendar feed for Google Calendar / Apple Calendar / Outlook
+    (OUT / "calendar.ics").write_text(build_ics(tournaments, base_url=""))
+    print(f"  ✅ calendar.ics ({len(tournaments)} events)")
 
     total_files = sum(1 for _ in OUT.rglob("*") if _.is_file())
     print(f"\n✅ Build complete: {total_files} files in {OUT}")
@@ -883,6 +1028,81 @@ h2 { color: #1e3a8a; border-bottom: 2px solid #fbbf24; padding-bottom: 0.5rem; m
 .tournament-card .card-link:hover { color: #fbbf24; }
 .tournament-card .ext-link { margin-left: 0.5rem; color: #64748b; text-decoration: none; font-size: 0.85rem; }
 .tournament-card .ext-link:hover { color: #1e3a8a; }
+
+.tournament-card .gcal-link {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.2rem 0.55rem;
+  background: #ffffff;
+  border: 1px solid #4285f4;
+  border-radius: 6px;
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.78rem;
+  transition: all 0.15s;
+}
+.tournament-card .gcal-link:hover {
+  background: #4285f4;
+  color: white;
+}
+
+/* Google Calendar banner (calendar page) */
+.gcal-banner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, #ffffff 0%, #e8f0fe 100%);
+  border: 2px solid #4285f4;
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  margin: 1rem 0 2.5rem;
+  box-shadow: 0 2px 8px rgba(66, 133, 244, 0.08);
+}
+.gcal-banner .gcal-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+.gcal-banner .gcal-text {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+.gcal-banner .gcal-text strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #1e3a8a;
+  margin-bottom: 0.25rem;
+}
+.gcal-banner .gcal-text p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.92rem;
+}
+.gcal-banner .gcal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+.gcal-banner .gcal-actions .btn {
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+.gcal-banner .gcal-actions .gcal-help {
+  font-size: 0.8rem;
+  color: #64748b;
+  text-align: center;
+  text-decoration: none;
+}
+.gcal-banner .gcal-actions .gcal-help:hover { color: #4285f4; }
+
+@media (max-width: 640px) {
+  .gcal-banner { flex-direction: column; text-align: center; }
+  .gcal-banner .gcal-actions { width: 100%; }
+}
 
 /* Badges */
 .cat-badge, .surface-badge {

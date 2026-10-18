@@ -5,6 +5,19 @@ layout: base
   <h1>📅 2027 ATP Tour Calendar</h1>
   <p class="lead">Complete season schedule grouped by month. Click any event for full details.</p>
 
+  <div class="gcal-banner">
+    <div class="gcal-icon">📆</div>
+    <div class="gcal-text">
+      <strong>Add to Google Calendar</strong>
+      <p>One click to import the entire 2027 ATP season — or subscribe to get automatic updates whenever the schedule changes.</p>
+    </div>
+    <div class="gcal-actions">
+      <a href="https://calendar.google.com/calendar/render?cid={{ '/calendar.ics' | absolute_url | url_encode | replace: 'https%3A%2F%2F', 'https://' }}" target="_blank" rel="noopener" class="btn btn-primary">➕ Add all events</a>
+      <a href="{{ '/calendar.ics' | relative_url }}" download="atp-2027.ics" class="btn">⬇️ Download .ics</a>
+      <a href="https://support.google.com/calendar/answer/37161" target="_blank" rel="noopener" class="gcal-help">How to subscribe ↗</a>
+    </div>
+  </div>
+
   {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
   {% for month_name in months %}
     {% assign month_num = forloop.index %}

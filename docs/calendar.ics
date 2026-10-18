@@ -1,0 +1,735 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ATP Tour 2027 Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ATP Tour 2027
+X-WR-CALDESC:Complete 2027 ATP Tour season — 66 tournaments
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:20270101-united-cup@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270105
+SUMMARY:🎾 United Cup
+DESCRIPTION:United Cup on Hard in Perth\, Sydney.\nDraw: 18.\nDetails: tournaments/united-cup/\nOfficial: https://www.unitedcup.com/
+LOCATION:Perth\, Sydney
+URL:tournaments/united-cup/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270104-brisbane-international-presented-by-anz@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270112
+SUMMARY:🎾 Brisbane International presented by ANZ
+DESCRIPTION:ATP 250 on Hard in Brisbane.\nDraw: 32.\nDetails: tournaments/brisbane-international-presented-by-anz/\nOfficial: https://www.brisbaneinternational.com.au/
+LOCATION:Brisbane
+URL:tournaments/brisbane-international-presented-by-anz/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270104-asb-classic@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270112
+SUMMARY:🎾 ASB Classic
+DESCRIPTION:ATP 250 on Hard in Auckland.\nDraw: 28.\nDetails: tournaments/asb-classic/\nOfficial: https://www.asbclassic.co.nz/
+LOCATION:Auckland
+URL:tournaments/asb-classic/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270111-bank-of-china-hong-kong-tennis-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270118
+SUMMARY:🎾 Bank of China Hong Kong Tennis Open
+DESCRIPTION:ATP 250 on Hard in Hong Kong.\nDraw: 28.\nDetails: tournaments/bank-of-china-hong-kong-tennis-open/\nOfficial: https://www.hktennisopen.hk/
+LOCATION:Hong Kong
+URL:tournaments/bank-of-china-hong-kong-tennis-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270111-adelaide-international@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270118
+SUMMARY:🎾 Adelaide International
+DESCRIPTION:ATP 250 on Hard in Adelaide.\nDraw: 28.\nDetails: tournaments/adelaide-international/\nOfficial: https://www.adelaideinternational.com.au/
+LOCATION:Adelaide
+URL:tournaments/adelaide-international/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270117-australian-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270201
+SUMMARY:🎾 Australian Open
+DESCRIPTION:Grand Slam on Hard in Melbourne.\nDraw: 128.\nDetails: tournaments/australian-open/\nOfficial: https://www.ausopen.com/
+LOCATION:Melbourne
+URL:tournaments/australian-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270201-open-occitanie@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270208
+SUMMARY:🎾 Open Occitanie
+DESCRIPTION:ATP 250 on Indoor Hard in Montpellier.\nDraw: 28.\nDetails: tournaments/open-occitanie/\nOfficial: https://www.openoccitanie.com/
+LOCATION:Montpellier
+URL:tournaments/open-occitanie/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270201-davis-cup-qualifiers-1st-round@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270208
+SUMMARY:🎾 Davis Cup Qualifiers 1st Round
+DESCRIPTION:Davis Cup on Various in Multi-City.\nDetails: tournaments/davis-cup-qualifiers-1st-round/\nOfficial: https://www.daviscup.com/
+LOCATION:Multi-City
+URL:tournaments/davis-cup-qualifiers-1st-round/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270208-nexo-dallas-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270215
+SUMMARY:🎾 NEXO Dallas Open
+DESCRIPTION:ATP 500 on Indoor Hard in Dallas.\nDraw: 32.\nDetails: tournaments/nexo-dallas-open/\nOfficial: https://www.dallasopen.com/
+LOCATION:Dallas
+URL:tournaments/nexo-dallas-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270208-abn-amro-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270215
+SUMMARY:🎾 ABN AMRO Open
+DESCRIPTION:ATP 500 on Indoor Hard in Rotterdam.\nDraw: 32.\nDetails: tournaments/abn-amro-open/\nOfficial: https://www.abnamroopen.nl/
+LOCATION:Rotterdam
+URL:tournaments/abn-amro-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270208-rio-open-presented-by-claro@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270215
+SUMMARY:🎾 Rio Open presented by Claro
+DESCRIPTION:ATP 500 on Clay in Rio de Janeiro.\nDraw: 32.\nDetails: tournaments/rio-open-presented-by-claro/\nOfficial: https://www.rioopen.com.br/
+LOCATION:Rio de Janeiro
+URL:tournaments/rio-open-presented-by-claro/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270215-qatar-exxonmobil-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270222
+SUMMARY:🎾 Qatar ExxonMobil Open
+DESCRIPTION:ATP 250 on Hard in Doha.\nDraw: 28.\nDetails: tournaments/qatar-exxonmobil-open/\nOfficial: https://www.qatarexxonmobilopen.com/
+LOCATION:Doha
+URL:tournaments/qatar-exxonmobil-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270215-ieb+-argentina-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270222
+SUMMARY:🎾 IEB+ Argentina Open
+DESCRIPTION:ATP 250 on Clay in Buenos Aires.\nDraw: 28.\nDetails: tournaments/ieb+-argentina-open/\nOfficial: https://www.argentinaopen.com/
+LOCATION:Buenos Aires
+URL:tournaments/ieb+-argentina-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270215-delray-beach-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270222
+SUMMARY:🎾 Delray Beach Open
+DESCRIPTION:ATP 250 on Hard in Delray Beach.\nDraw: 28.\nDetails: tournaments/delray-beach-open/\nOfficial: https://www.delraybeachopen.com/
+LOCATION:Delray Beach
+URL:tournaments/delray-beach-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270222-dubai-duty-free-tennis-championships@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270301
+SUMMARY:🎾 Dubai Duty Free Tennis Championships
+DESCRIPTION:ATP 500 on Hard in Dubai.\nDraw: 32.\nDetails: tournaments/dubai-duty-free-tennis-championships/\nOfficial: https://www.dubaidutyfreetennischampionships.com/
+LOCATION:Dubai
+URL:tournaments/dubai-duty-free-tennis-championships/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270222-bci-seguros-chile-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270301
+SUMMARY:🎾 BCI Seguros Chile Open
+DESCRIPTION:ATP 250 on Clay in Santiago.\nDraw: 28.\nDetails: tournaments/bci-seguros-chile-open/\nOfficial: https://www.chileopen.cl/
+LOCATION:Santiago
+URL:tournaments/bci-seguros-chile-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270222-abierto-mexicano-telcel-presentado-por-hsbc@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270301
+SUMMARY:🎾 Abierto Mexicano Telcel presentado por HSBC
+DESCRIPTION:ATP 500 on Hard in Acapulco.\nDraw: 32.\nDetails: tournaments/abierto-mexicano-telcel-presentado-por-hsbc/\nOfficial: https://www.abiertomexicano.com/
+LOCATION:Acapulco
+URL:tournaments/abierto-mexicano-telcel-presentado-por-hsbc/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270303-bnp-paribas-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270315
+SUMMARY:🎾 BNP Paribas Open
+DESCRIPTION:ATP Masters 1000 on Hard in Indian Wells.\nDraw: 96.\nDetails: tournaments/bnp-paribas-open/\nOfficial: https://www.bnpparibasopen.com/
+LOCATION:Indian Wells
+URL:tournaments/bnp-paribas-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270317-miami-open-presented-by-itaú@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270329
+SUMMARY:🎾 Miami Open presented by Itaú
+DESCRIPTION:ATP Masters 1000 on Hard in Miami.\nDraw: 96.\nDetails: tournaments/miami-open-presented-by-itaú/\nOfficial: https://www.miamiopen.com/
+LOCATION:Miami
+URL:tournaments/miami-open-presented-by-itaú/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270329-tiriac-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270405
+SUMMARY:🎾 Tiriac Open
+DESCRIPTION:ATP 250 on Clay in Bucharest.\nDraw: 28.\nDetails: tournaments/tiriac-open/\nOfficial: https://www.tiriacopen.ro/
+LOCATION:Bucharest
+URL:tournaments/tiriac-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270329-grand-prix-hassan-ii@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270405
+SUMMARY:🎾 Grand Prix Hassan II
+DESCRIPTION:ATP 250 on Clay in Marrakech.\nDraw: 28.\nDetails: tournaments/grand-prix-hassan-ii/\nOfficial: https://www.grandprixhassanii.ma/
+LOCATION:Marrakech
+URL:tournaments/grand-prix-hassan-ii/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270405-fayez-sarofim-&-co-us-mens-clay-court-championship@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270412
+SUMMARY:🎾 Fayez Sarofim & Co. U.S. Men's Clay Court Championship
+DESCRIPTION:ATP 250 on Clay in Houston.\nDraw: 28.\nDetails: tournaments/fayez-sarofim-&-co-us-mens-clay-court-championship/\nOfficial: https://www.mensclaycourt.com/
+LOCATION:Houston
+URL:tournaments/fayez-sarofim-&-co-us-mens-clay-court-championship/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270412-barcelona-open-banc-sabadell@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270419
+SUMMARY:🎾 Barcelona Open Banc Sabadell
+DESCRIPTION:ATP 500 on Clay in Barcelona.\nDraw: 32.\nDetails: tournaments/barcelona-open-banc-sabadell/\nOfficial: https://www.barcelonaopen.com/
+LOCATION:Barcelona
+URL:tournaments/barcelona-open-banc-sabadell/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270412-rolex-monte-carlo-masters@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270419
+SUMMARY:🎾 Rolex Monte-Carlo Masters
+DESCRIPTION:ATP Masters 1000 on Clay in Monte-Carlo.\nDraw: 56.\nDetails: tournaments/rolex-monte-carlo-masters/\nOfficial: https://www.montecarlotennismasters.com/
+LOCATION:Monte-Carlo
+URL:tournaments/rolex-monte-carlo-masters/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270412-bmw-open-by-bitpanda@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270419
+SUMMARY:🎾 BMW Open by Bitpanda
+DESCRIPTION:ATP 500 on Clay in Munich.\nDraw: 32.\nDetails: tournaments/bmw-open-by-bitpanda/\nOfficial: https://www.bmwopen.de/
+LOCATION:Munich
+URL:tournaments/bmw-open-by-bitpanda/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270421-mutua-madrid-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270503
+SUMMARY:🎾 Mutua Madrid Open
+DESCRIPTION:ATP Masters 1000 on Clay in Madrid.\nDraw: 96.\nDetails: tournaments/mutua-madrid-open/\nOfficial: https://www.madridopen.com/
+LOCATION:Madrid
+URL:tournaments/mutua-madrid-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270505-internazionali-bnl-ditalia@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270517
+SUMMARY:🎾 Internazionali BNL d'Italia
+DESCRIPTION:ATP Masters 1000 on Clay in Rome.\nDraw: 96.\nDetails: tournaments/internazionali-bnl-ditalia/\nOfficial: https://www.internazionalibnlditalia.com/
+LOCATION:Rome
+URL:tournaments/internazionali-bnl-ditalia/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270516-gonet-geneva-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270523
+SUMMARY:🎾 Gonet Geneva Open
+DESCRIPTION:ATP 250 on Clay in Geneva.\nDraw: 28.\nDetails: tournaments/gonet-geneva-open/\nOfficial: https://www.genevaopen.ch/
+LOCATION:Geneva
+URL:tournaments/gonet-geneva-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270516-hamburg-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270523
+SUMMARY:🎾 Hamburg Open
+DESCRIPTION:ATP 500 on Clay in Hamburg.\nDraw: 32.\nDetails: tournaments/hamburg-open/\nOfficial: https://www.hamburgopen.com/
+LOCATION:Hamburg
+URL:tournaments/hamburg-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270523-roland-garros@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270607
+SUMMARY:🎾 Roland-Garros
+DESCRIPTION:Grand Slam on Clay in Paris.\nDraw: 128.\nDetails: tournaments/roland-garros/\nOfficial: https://www.rolandgarros.com/
+LOCATION:Paris
+URL:tournaments/roland-garros/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270607-boss-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270614
+SUMMARY:🎾 BOSS Open
+DESCRIPTION:ATP 250 on Grass in Stuttgart.\nDraw: 28.\nDetails: tournaments/boss-open/\nOfficial: https://www.bossopen.com/
+LOCATION:Stuttgart
+URL:tournaments/boss-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270607-libema-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270614
+SUMMARY:🎾 Libema Open
+DESCRIPTION:ATP 250 on Grass in 's-Hertogenbosch.\nDraw: 28.\nDetails: tournaments/libema-open/\nOfficial: https://www.libema-open.nl/
+LOCATION:'s-Hertogenbosch
+URL:tournaments/libema-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270614-hsbc-championships@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270621
+SUMMARY:🎾 HSBC Championships
+DESCRIPTION:ATP 500 on Grass in London.\nDraw: 32.\nDetails: tournaments/hsbc-championships/\nOfficial: https://www.hsbchamps.com/
+LOCATION:London
+URL:tournaments/hsbc-championships/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270614-terra-wortmann-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270621
+SUMMARY:🎾 Terra Wortmann Open
+DESCRIPTION:ATP 500 on Grass in Halle.\nDraw: 32.\nDetails: tournaments/terra-wortmann-open/\nOfficial: https://www.terrawortmannopen.de/
+LOCATION:Halle
+URL:tournaments/terra-wortmann-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270620-lexus-eastbourne-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270627
+SUMMARY:🎾 Lexus Eastbourne Open
+DESCRIPTION:ATP 250 on Grass in Eastbourne.\nDraw: 28.\nDetails: tournaments/lexus-eastbourne-open/\nOfficial: https://www.eastbourneopen.com/
+LOCATION:Eastbourne
+URL:tournaments/lexus-eastbourne-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270620-vanda-pharmaceuticals-mallorca-championships@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270627
+SUMMARY:🎾 Vanda Pharmaceuticals Mallorca Championships
+DESCRIPTION:ATP 250 on Grass in Mallorca.\nDraw: 28.\nDetails: tournaments/vanda-pharmaceuticals-mallorca-championships/\nOfficial: https://www.mallorcachampionships.com/
+LOCATION:Mallorca
+URL:tournaments/vanda-pharmaceuticals-mallorca-championships/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270628-the-championships-wimbledon@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270712
+SUMMARY:🎾 The Championships\, Wimbledon
+DESCRIPTION:Grand Slam on Grass in London.\nDraw: 128.\nDetails: tournaments/the-championships-wimbledon/\nOfficial: https://www.wimbledon.com/
+LOCATION:London
+URL:tournaments/the-championships-wimbledon/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270712-nordea-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270719
+SUMMARY:🎾 Nordea Open
+DESCRIPTION:ATP 250 on Clay in Båstad.\nDraw: 28.\nDetails: tournaments/nordea-open/\nOfficial: https://www.nordeaopen.se/
+LOCATION:Båstad
+URL:tournaments/nordea-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270712-efg-swiss-open-gstaad@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270719
+SUMMARY:🎾 EFG Swiss Open Gstaad
+DESCRIPTION:ATP 250 on Clay in Gstaad.\nDraw: 28.\nDetails: tournaments/efg-swiss-open-gstaad/\nOfficial: https://www.swissopengstaad.ch/
+LOCATION:Gstaad
+URL:tournaments/efg-swiss-open-gstaad/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270712-millennium-estoril-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270719
+SUMMARY:🎾 Millennium Estoril Open
+DESCRIPTION:ATP 250 on Clay in Estoril.\nDraw: 28.\nDetails: tournaments/millennium-estoril-open/\nOfficial: https://www.estorilopen.pt/
+LOCATION:Estoril
+URL:tournaments/millennium-estoril-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270712-plava-laguna-croatia-open-umag@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270719
+SUMMARY:🎾 Plava Laguna Croatia Open Umag
+DESCRIPTION:ATP 250 on Clay in Umag.\nDraw: 28.\nDetails: tournaments/plava-laguna-croatia-open-umag/\nOfficial: https://www.croatiaopen.hr/
+LOCATION:Umag
+URL:tournaments/plava-laguna-croatia-open-umag/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270719-generali-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270726
+SUMMARY:🎾 Generali Open
+DESCRIPTION:ATP 250 on Clay in Kitzbühel.\nDraw: 28.\nDetails: tournaments/generali-open/\nOfficial: https://www.generali-open.com/
+LOCATION:Kitzbühel
+URL:tournaments/generali-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270719-mubadala-citi-dc-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270726
+SUMMARY:🎾 Mubadala Citi DC Open
+DESCRIPTION:ATP 500 on Hard in Washington\, D.C..\nDraw: 32.\nDetails: tournaments/mubadala-citi-dc-open/\nOfficial: https://www.dcopen.com/
+LOCATION:Washington\, D.C.
+URL:tournaments/mubadala-citi-dc-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270726-mifel-tennis-open-by-telcel-oppo@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270801
+SUMMARY:🎾 Mifel Tennis Open by Telcel Oppo
+DESCRIPTION:ATP 250 on Hard in Los Cabos.\nDraw: 28.\nDetails: tournaments/mifel-tennis-open-by-telcel-oppo/\nOfficial: https://www.mifeltennisopen.com/
+LOCATION:Los Cabos
+URL:tournaments/mifel-tennis-open-by-telcel-oppo/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270801-national-bank-open-presented-by-rogers@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270809
+SUMMARY:🎾 National Bank Open presented by Rogers
+DESCRIPTION:ATP Masters 1000 on Hard in Toronto.\nDraw: 96.\nDetails: tournaments/national-bank-open-presented-by-rogers/\nOfficial: https://www.nationalbankopen.com/
+LOCATION:Toronto
+URL:tournaments/national-bank-open-presented-by-rogers/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270812-cincinnati-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270824
+SUMMARY:🎾 Cincinnati Open
+DESCRIPTION:ATP Masters 1000 on Hard in Cincinnati.\nDraw: 96.\nDetails: tournaments/cincinnati-open/\nOfficial: https://www.cincinnatiopen.com/
+LOCATION:Cincinnati
+URL:tournaments/cincinnati-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270822-winston-salem-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270829
+SUMMARY:🎾 Winston-Salem Open
+DESCRIPTION:ATP 250 on Hard in Winston-Salem.\nDraw: 48.\nDetails: tournaments/winston-salem-open/\nOfficial: https://www.winstonsalemopen.com/
+LOCATION:Winston-Salem
+URL:tournaments/winston-salem-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270829-us-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270913
+SUMMARY:🎾 US Open
+DESCRIPTION:Grand Slam on Hard in New York.\nDraw: 128.\nDetails: tournaments/us-open/\nOfficial: https://www.usopen.org/
+LOCATION:New York
+URL:tournaments/us-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270919-chengdu-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270926
+SUMMARY:🎾 Chengdu Open
+DESCRIPTION:ATP 250 on Hard in Chengdu.\nDraw: 28.\nDetails: tournaments/chengdu-open/\nOfficial: https://www.chengduopen.com/
+LOCATION:Chengdu
+URL:tournaments/chengdu-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270919-hangzhou-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270926
+SUMMARY:🎾 Hangzhou Open
+DESCRIPTION:ATP 250 on Hard in Hangzhou.\nDraw: 28.\nDetails: tournaments/hangzhou-open/\nOfficial: https://www.hangzhouopen.com/
+LOCATION:Hangzhou
+URL:tournaments/hangzhou-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270919-davis-cup-qualifiers-2nd-round@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270926
+SUMMARY:🎾 Davis Cup Qualifiers 2nd Round
+DESCRIPTION:Davis Cup on Various in Multi-City.\nDetails: tournaments/davis-cup-qualifiers-2nd-round/\nOfficial: https://www.daviscup.com/
+LOCATION:Multi-City
+URL:tournaments/davis-cup-qualifiers-2nd-round/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270922-kinoshita-group-japan-open-tennis-championships@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270926
+SUMMARY:🎾 Kinoshita Group Japan Open Tennis Championships
+DESCRIPTION:ATP 500 on Hard in Tokyo.\nDraw: 32.\nDetails: tournaments/kinoshita-group-japan-open-tennis-championships/\nOfficial: https://www.japanopentennis.com/
+LOCATION:Tokyo
+URL:tournaments/kinoshita-group-japan-open-tennis-championships/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270929-china-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20271005
+SUMMARY:🎾 China Open
+DESCRIPTION:ATP 500 on Hard in Beijing.\nDraw: 32.\nDetails: tournaments/china-open/\nOfficial: https://www.chinaopen.com/
+LOCATION:Beijing
+URL:tournaments/china-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270924-laver-cup@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270927
+SUMMARY:🎾 Laver Cup
+DESCRIPTION:Laver Cup on Indoor Hard in TBD.\nDraw: 2.\nDetails: tournaments/laver-cup/\nOfficial: https://www.lavercup.com/
+LOCATION:TBD
+URL:tournaments/laver-cup/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271006-rolex-shanghai-masters@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271018
+SUMMARY:🎾 Rolex Shanghai Masters
+DESCRIPTION:ATP Masters 1000 on Hard in Shanghai.\nDraw: 96.\nDetails: tournaments/rolex-shanghai-masters/\nOfficial: https://www.shanghaimasters.com/
+LOCATION:Shanghai
+URL:tournaments/rolex-shanghai-masters/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271018-almaty-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271025
+SUMMARY:🎾 Almaty Open
+DESCRIPTION:ATP 250 on Indoor Hard in Almaty.\nDraw: 28.\nDetails: tournaments/almaty-open/\nOfficial: https://www.almatyopen.kz/
+LOCATION:Almaty
+URL:tournaments/almaty-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271018-bnp-paribas-nordic-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271025
+SUMMARY:🎾 BNP Paribas Nordic Open
+DESCRIPTION:ATP 250 on Indoor Hard in Stockholm.\nDraw: 28.\nDetails: tournaments/bnp-paribas-nordic-open/\nOfficial: https://www.nordicopen.se/
+LOCATION:Stockholm
+URL:tournaments/bnp-paribas-nordic-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271018-bnp-paribas-fortis-european-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271025
+SUMMARY:🎾 BNP Paribas Fortis European Open
+DESCRIPTION:ATP 250 on Indoor Hard in Brussels.\nDraw: 28.\nDetails: tournaments/bnp-paribas-fortis-european-open/\nOfficial: https://www.europeanopen.be/
+LOCATION:Brussels
+URL:tournaments/bnp-paribas-fortis-european-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271025-erste-bank-open@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271101
+SUMMARY:🎾 Erste Bank Open
+DESCRIPTION:ATP 500 on Indoor Hard in Vienna.\nDraw: 32.\nDetails: tournaments/erste-bank-open/\nOfficial: https://www.erstebank-open.com/
+LOCATION:Vienna
+URL:tournaments/erste-bank-open/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271025-swiss-indoors-basel@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271101
+SUMMARY:🎾 Swiss Indoors Basel
+DESCRIPTION:ATP 500 on Indoor Hard in Basel.\nDraw: 32.\nDetails: tournaments/swiss-indoors-basel/\nOfficial: https://www.swissindoorsbasel.ch/
+LOCATION:Basel
+URL:tournaments/swiss-indoors-basel/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271025-grand-prix-auvergne-rhône-alpes@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271101
+SUMMARY:🎾 Grand Prix Auvergne-Rhône-Alpes
+DESCRIPTION:ATP 250 on Indoor Hard in Lyon.\nDraw: 28.\nDetails: tournaments/grand-prix-auvergne-rhône-alpes/\nOfficial: https://www.grandprixlyon.com/
+LOCATION:Lyon
+URL:tournaments/grand-prix-auvergne-rhône-alpes/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271101-rolex-paris-masters@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271108
+SUMMARY:🎾 Rolex Paris Masters
+DESCRIPTION:ATP Masters 1000 on Indoor Hard in Paris.\nDraw: 56.\nDetails: tournaments/rolex-paris-masters/\nOfficial: https://www.rolexparismasters.com/
+LOCATION:Paris
+URL:tournaments/rolex-paris-masters/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271107-tbd-event@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271114
+SUMMARY:🎾 TBD
+DESCRIPTION:ATP 250 on Indoor Hard in TBD.\nDraw: 28.\nDetails: tournaments/tbd-event/
+LOCATION:TBD
+URL:tournaments/tbd-event/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271114-nitto-atp-finals@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271122
+SUMMARY:🎾 Nitto ATP Finals
+DESCRIPTION:ATP Finals on Indoor Hard in Italy.\nDraw: 8.\nDetails: tournaments/nitto-atp-finals/\nOfficial: https://www.nittoatpfinals.com/
+LOCATION:Italy
+URL:tournaments/nitto-atp-finals/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271119-davis-cup-finals@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271119
+DTEND;VALUE=DATE:20271128
+SUMMARY:🎾 Davis Cup Finals
+DESCRIPTION:Davis Cup on Indoor Hard in Italy.\nDraw: 8.\nDetails: tournaments/davis-cup-finals/\nOfficial: https://www.daviscup.com/
+LOCATION:Italy
+URL:tournaments/davis-cup-finals/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271201-next-gen-atp-finals@atp-2027-calendar
+DTSTAMP:20261018T102635Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271206
+SUMMARY:🎾 Next Gen ATP Finals
+DESCRIPTION:ATP Finals on Indoor Hard in TBD.\nDraw: 8.\nDetails: tournaments/next-gen-atp-finals/\nOfficial: https://www.nextgenatpfinals.com/
+LOCATION:TBD
+URL:tournaments/next-gen-atp-finals/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
